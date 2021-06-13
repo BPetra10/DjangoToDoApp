@@ -1,0 +1,67 @@
+.container{
+    border: 1px solid black;
+    box-sizing: border-box;
+    min-height: 200px;
+    max-width: 500px;
+    margin-top: 10vh;
+}
+.input_holder{
+    width: 100%;
+    margin: 20px auto;
+}
+.input_holder input{
+    width: 70%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.input_holder button{
+    width: 25%;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#todos{
+    width: 90%;
+    background-color: #222222;
+    color: rgb(240, 240, 240);
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.task{
+    width: 95%;
+    border: 1px solid white;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+.task :hover
+{
+    cursor: pointer;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.mod
+{
+    float: right;
+    width: 30px !important;
+    height: 30px !important;
+    background-color: transparent;
+    border: none;
+}
+#modifybtn
+{
+    display: none;
+}
+.remove
+{
+    width: 30px !important;
+    height: 30px !important;
+    background-color: red;
+    color: white;
+    border: none;
+    float: right;
+    font-weight: bold;
+}
